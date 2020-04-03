@@ -1,0 +1,34 @@
+{
+  "name": "to-do_List_API",
+  "version": "1.0.0",
+  "description": "A simple to-do list api to work with docker and circleci",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D-Rosa99/to-do_List_API.git"
+  },
+  "keywords": [
+    "express",
+    "mongoose",
+    "nodemon"
+  ],
+  "author": "David De La Rosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D-Rosa99/to-do_List_API/issues"
+  },
+  "homepage": "https://github.com/D-Rosa99/to-do_List_API#readme",
+  "dependencies": {
+    "@hapi/joi": "17.1.1",
+    "express": "4.17.1",
+    "mongoose": "5.9.6"
+  },
+  "devDependencies": {
+    "jest": "25.2.3",
+    "nodemon": "2.0.2"
+  }
+}
