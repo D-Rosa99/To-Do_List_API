@@ -1,8 +1,8 @@
-FROM node:stretch-slim
+FROM node:10.13.0
 
 WORKDIR /src
 
-COPY package*.json /src 
+COPY package*.json ./
 
 RUN npm install
 

@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 module.exports = () => {
   mongoose
-    .connect("mongodb://mongo:27017/To-Do_List", {
+    .connect("mongodb:mongo:27017/docker-node-mongo", {
       useUnifiedTopology: true,
       useNewUrlParser: true,
     })
